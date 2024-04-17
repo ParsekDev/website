@@ -19,8 +19,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Created by .ignore support plugin (hsz.mobi)
-### Node template
 # Logs
 /logs
 *.log
@@ -102,8 +100,3 @@ sw.*
 
 # Vim swap files
 *.swp
-
-server.crt
-server.key
-
-.output
