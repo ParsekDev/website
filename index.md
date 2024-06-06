@@ -1,24 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Parsek"
-  text: "Open-source modular back-end written in Kotlin"
-  tagline: My great project tagline
+  name: Parsek
+  text: Rest API Build Structure for Kotlin
+  tagline: Create Rest API with Kotlin in Minutes
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: What is Parsek?
+      link: /guide/what-is-parsek
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Quickstart
+      link: /guide/getting-started
 
 features:
-  - title: Feature A
+  - title: Modular Codebase
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Only Rest API
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Basic Development
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
