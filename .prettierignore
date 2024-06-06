@@ -98,3 +98,4 @@ sw.*
 static
 
 .output
+.vitepress/cache
