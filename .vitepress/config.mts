@@ -43,7 +43,7 @@ export default defineConfig({
       }
     ],
     ["meta", { name: "twitter:site", content: "@StatuAgency" }],
-    ["meta", { name: "twitter:card", content: "summary" }]
+    ["meta", { name: "twitter:card", content: "summary_large_image" }]
   ],
 
   themeConfig: {
