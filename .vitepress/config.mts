@@ -24,7 +24,7 @@ export default defineConfig({
   srcDir: "src",
 
   head: [
-    ["meta", { name: "theme-color", content: "#3c8772" }],
+    ["meta", { name: "theme-color", content: "#000000" }],
     ["meta", { property: "og:url", content: "https://parsek.dev/" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:title", content: "Parsek" }],
