@@ -39,7 +39,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://parsek.dev/parsek-social-card.png"
+        content: "https://parsek.dev/images/banner.png"
       }
     ],
     ["meta", { name: "twitter:site", content: "@StatuAgency" }],
