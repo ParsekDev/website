@@ -18,16 +18,17 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" }
+      { text: "Guide", link: "/guide/what-is-parsek" },
+      { text: "Reference", link: "/reference" },
+      { text: "Modules", link: "/modules" },
     ],
 
     sidebar: [
       {
         text: "Examples",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" }
+          { text: "What is Parsek?", link: "/guide/what-is-parsek" },
+          { text: "Quickstart", link: "/guide/getting-started" }
         ]
       }
     ],
