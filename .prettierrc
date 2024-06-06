@@ -4,5 +4,14 @@
   "tabWidth": 2,
   "htmlWhitespaceSensitivity": "ignore",
   "printWidth": 120,
-  "trailingComma": "none"
+  "trailingComma": "none",
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ]
 }
