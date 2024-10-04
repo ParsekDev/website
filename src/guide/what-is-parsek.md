@@ -1,8 +1,30 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme';
+
+const members = [
+  {
+    avatar: 'https://github.com/duruer.png',
+    name: 'Ahmet Enes Duruer',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/duruer' },
+      { icon: 'instagram', link: 'https://www.instagram.com/ae.duruer' },
+    ]
+  },
+  {
+    avatar: 'https://github.com/berkaltiok.png',
+    name: 'Berk Altiok',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/berkaltiok' },
+      { icon: 'twitter', link: 'https://twitter.com/altiokberk' }
+    ]
+  }
+]
+</script>
+
 # What is Parsek?
-
-## What is?
 Parsek is a core platform designed for back-end applications, allowing developers to focus on their projects without worrying about speed optimizations, best practices, or scalability.
-
 By offering reusable plugins and rapid development tools, Parsek eliminates the need to write the same feature code for each project, ensuring faster, more efficient development while maintaining high performance.
 
 ## Philosophy
@@ -41,3 +63,8 @@ For individuals who would rather learn by doing.
 
 ### **Check out the Examples**
 Discover common examples of core features and official plugins available for Parsek.
+
+## Our Team
+Say hello to our awesome team.
+
+<VPTeamMembers size="small" :members="members" />

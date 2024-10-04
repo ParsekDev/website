@@ -39,10 +39,13 @@ export const sidebar = [
 ]
 
 export default defineConfig({
+  srcDir: "src",
+
   lang: "en-US",
   title: "Parsek",
   description: "Rest API Build Structure for Kotlin",
-  srcDir: "src",
+
+  lastUpdated: true,
 
   head: [
     ["meta", { name: "theme-color", content: "#000000" }],
@@ -78,6 +81,11 @@ export default defineConfig({
 
     search: {
       provider: "local"
+    },
+
+    editLink: {
+      pattern: "https://github.com/StatuParsek/website/edit/main/:path",
+      text: "Edit this page on GitHub"
     },
 
     footer: {
