@@ -1,43 +1,5 @@
 import { defineConfig } from "vitepress"
 
-const nav = [
-  {
-    text: "Guide",
-    link: "/guide/what-is-parsek"
-  },
-  {
-    text: "Reference",
-    link: "/reference"
-  },
-  {
-    text: "Modules",
-    link: "/modules"
-  }
-]
-
-export const sidebar = [
-  {
-    text: "Guide",
-    items: [
-      { text: "What is Parsek?", link: "/guide/what-is-parsek" },
-      { text: "Quick Start", link: "/guide/quick-start" },
-      {
-        text: "Features",
-        items: [
-          { text: "Routing", link: "/guide/features/routing" },
-          { text: "Plugins", link: "/guide/features/plugins" },
-          { text: "Services", link: "/guide/features/services" },
-          { text: "Health Check System", link: "/guide/features/health-check-system" }
-        ]
-      },
-      { text: "Configuration", link: "/guide/configuration" },
-      { text: "Going Further", link: "/guide/going-further" },
-      { text: "Examples", link: "/guide/examples" },
-      { text: "Deployment", link: "/guide/deployment" }
-    ]
-  }
-]
-
 export default defineConfig({
   srcDir: "src",
 
@@ -71,25 +33,112 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    nav,
-    sidebar,
+    search: {
+      provider: "local"
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/StatuParsek" },
       { icon: "twitter", link: "https://twitter.com/StatuAgency" }
     ],
-
-    search: {
-      provider: "local"
-    },
-
-    editLink: {
-      pattern: "https://github.com/StatuParsek/website/edit/main/:path",
-      text: "Edit this page on GitHub"
-    },
-
     footer: {
       copyright: `Copyright © 2023 - ${new Date().getFullYear()} Parsek`
+    }
+  },
+
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+      themeConfig: {
+        nav: [
+          {
+            text: "Guide",
+            link: "/guide/what-is-parsek"
+          },
+          {
+            text: "Reference",
+            link: "/reference"
+          },
+          {
+            text: "Modules",
+            link: "/modules"
+          }
+        ],
+        sidebar: [
+          {
+            text: "Guide",
+            items: [
+              { text: "What is Parsek?", link: "/guide/what-is-parsek" },
+              { text: "Quick Start", link: "/guide/quick-start" },
+              {
+                text: "Features",
+                items: [
+                  { text: "Routing", link: "/guide/features/routing" },
+                  { text: "Plugins", link: "/guide/features/plugins" },
+                  { text: "Services", link: "/guide/features/services" },
+                  { text: "Health Check System", link: "/guide/features/health-check-system" }
+                ]
+              },
+              { text: "Configuration", link: "/guide/configuration" },
+              { text: "Going Further", link: "/guide/going-further" },
+              { text: "Examples", link: "/guide/examples" },
+              { text: "Deployment", link: "/guide/deployment" }
+            ]
+          }
+        ],
+        editLink: {
+          pattern: "https://github.com/StatuParsek/website/edit/main/:path",
+          text: "Edit this page on GitHub"
+        }
+      }
+    },
+    tr: {
+      label: "Turkish",
+      lang: "tr",
+      link: "/tr",
+      themeConfig: {
+        nav: [
+          {
+            text: "Kılavuz",
+            link: "/tr/guide/what-is-parsek"
+          },
+          {
+            text: "Referans",
+            link: "/tr/reference"
+          },
+          {
+            text: "Modüller",
+            link: "/tr/modules"
+          }
+        ],
+        sidebar: [
+          {
+            text: "Kılavuz",
+            items: [
+              { text: "Parsek Nedir?", link: "/tr/guide/what-is-parsek" },
+              { text: "Hızlı Başlangıç", link: "/tr/guide/quick-start" },
+              {
+                text: "Özellikler",
+                items: [
+                  { text: "Yönlendirme", link: "/tr/guide/features/routing" },
+                  { text: "Eklentiler", link: "/tr/guide/features/plugins" },
+                  { text: "Servisler", link: "/tr/guide/features/services" },
+                  { text: "Sağlık Kontrol Sistemi", link: "/tr/guide/features/health-check-system" }
+                ]
+              },
+              { text: "Yapılandırma", link: "/tr/guide/configuration" },
+              { text: "Daha İleri Git", link: "/tr/guide/going-further" },
+              { text: "Örnekler", link: "/tr/guide/examples" },
+              { text: "Dağıtım", link: "/tr/guide/deployment" }
+            ]
+          }
+        ],
+        editLink: {
+          pattern: "https://github.com/StatuParsek/website/edit/main/:path",
+          text: "Bu sayfayı GitHub'da düzenle"
+        }
+      }
     }
   },
 
