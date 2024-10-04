@@ -14,7 +14,7 @@ const members = [
   {
     avatar: 'https://github.com/berkaltiok.png',
     name: 'Berk Altiok',
-    title: 'Creator',
+    title: 'Random Contributor',
     links: [
       { icon: 'github', link: 'https://github.com/berkaltiok' },
       { icon: 'twitter', link: 'https://twitter.com/altiokberk' }
