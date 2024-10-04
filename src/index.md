@@ -10,8 +10,8 @@ hero:
       text: What is Parsek?
       link: /guide/what-is-parsek
     - theme: alt
-      text: Quickstart
-      link: /guide/getting-started
+      text: Quick Start
+      link: /guide/quick-start
 
 features:
   - title: Modular Codebase
