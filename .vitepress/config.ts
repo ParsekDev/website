@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress"
 const nav = [
   {
     text: "Guide",
-    link: "/guide"
+    link: "/guide/what-is-parsek"
   },
   {
     text: "Reference",
@@ -15,7 +15,28 @@ const nav = [
   }
 ]
 
-export const sidebar = {}
+export const sidebar = [
+  {
+    text: "Guide",
+    items: [
+      { text: "What is Parsek?", link: "/guide/what-is-parsek" },
+      { text: "Quick Start", link: "/guide/quick-start" },
+      {
+        text: "Features",
+        items: [
+          { text: "Routing", link: "/guide/features/routing" },
+          { text: "Plugins", link: "/guide/features/plugins" },
+          { text: "Services", link: "/guide/features/services" },
+          { text: "Health Check System", link: "/guide/features/health-check-system" }
+        ]
+      },
+      { text: "Configuration", link: "/guide/configuration" },
+      { text: "Going Further", link: "/guide/going-further" },
+      { text: "Examples", link: "/guide/examples" },
+      { text: "Deployment", link: "/guide/deployment" }
+    ]
+  }
+]
 
 export default defineConfig({
   lang: "en-US",
@@ -68,6 +89,8 @@ export default defineConfig({
     theme: "github-dark",
     config(md) {}
   },
+
+  cleanUrls: true,
 
   vite: {
     define: {
