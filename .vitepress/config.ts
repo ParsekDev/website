@@ -9,6 +9,7 @@ export default defineConfig({
 
   lastUpdated: true,
 
+  ignoreDeadLinks: true,
   head: [
     ["meta", { name: "theme-color", content: "#000000" }],
     ["meta", { property: "og:url", content: "https://parsek.dev/" }],
