@@ -57,33 +57,48 @@ export default defineConfig({
             link: "/guide/what-is-parsek"
           },
           {
-            text: "Reference",
-            link: "/reference"
+            text: "Plugins",
+            link: "/plugins"
           },
           {
-            text: "Modules",
-            link: "/modules"
-          }
+            text: "Plugin Development",
+            link: "/plugin-development"
+          },
         ],
         sidebar: [
           {
             text: "Guide",
             items: [
-              { text: "What is Parsek?", link: "/guide/what-is-parsek" },
-              { text: "Quick Start", link: "/guide/quick-start" },
               {
-                text: "Features",
+                text: "Introduction",
+                link: "/guide/what-is-parsek"
+              },
+              { text: "Quick Start", link: "/guide/quick-start" },
+              { text: "Features", link: "/guide/features"},
+              { text: "Configuration", link: "/guide/configuration" },
+              {
+                text: "Plugins",
+                link: "/guide/plugins",
+                collapsed: true,
                 items: [
-                  { text: "Routing", link: "/guide/features/routing" },
-                  { text: "Plugins", link: "/guide/features/plugins" },
-                  { text: "Services", link: "/guide/features/services" },
-                  { text: "Health Check System", link: "/guide/features/health-check-system" }
+                  {
+                    text: "Official",
+                    link: "/guide/plugins/"
+                  },
+                  {
+                    text: "Unofficial",
+                    link: "/guide/plugins/unofficial"
+                  }
                 ]
               },
-              { text: "Configuration", link: "/guide/configuration" },
-              { text: "Going Further", link: "/guide/going-further" },
               { text: "Examples", link: "/guide/examples" },
               { text: "Deployment", link: "/guide/deployment" }
+            ]
+          },
+          {
+            text: "Plugin Development",
+            items: [
+
             ]
           }
         ],
