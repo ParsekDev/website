@@ -14,10 +14,13 @@ hero:
       link: /guide/quick-start
 
 features:
-  - title: Modular Codebase
+  - icon: 🔩
+    title: Modular Codebase
     details: Flexible and easy development with module structure
-  - title: Only Rest API
+  - icon: 🔑
+    title: Only Rest API
     details: A technology focused only on API development
-  - title: Basic Development
+  - icon: ⚡️
+    title: Basic Development
     details: Easy and quick start with official modules
 ---
