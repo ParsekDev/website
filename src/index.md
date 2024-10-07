@@ -19,8 +19,8 @@ features:
     details: Flexible and easy development with module structure
   - icon: 🔑
     title: Only Rest API
-    details: A technology focused only on API development
+    details: A stable technology focused only on API development
   - icon: ⚡️
     title: Basic Development
-    details: Easy and quick start with official modules
+    details: Easy and quick start with rich docs and official modules
 ---
