@@ -15,9 +15,9 @@ hero:
 
 features:
   - title: Modular Codebase
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Flexible and easy development with module structure
   - title: Only Rest API
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: A technology focused only on API development
   - title: Basic Development
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Easy and quick start with official modules
 ---
