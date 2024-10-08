@@ -39,8 +39,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/StatuParsek" },
-      { icon: "twitter", link: "https://twitter.com/StatuAgency" }
+      { icon: "github", link: "https://github.com/ParsekDev" }
     ],
     footer: {
       copyright: `Copyright © 2023 - ${new Date().getFullYear()} Parsek`
@@ -104,7 +103,7 @@ export default defineConfig({
           }
         ],
         editLink: {
-          pattern: "https://github.com/StatuParsek/website/edit/main/:path",
+          pattern: "https://github.com/ParsekDev/website/edit/main/:path",
           text: "Edit this page on GitHub"
         }
       }
@@ -151,7 +150,7 @@ export default defineConfig({
           }
         ],
         editLink: {
-          pattern: "https://github.com/StatuParsek/website/edit/main/:path",
+          pattern: "https://github.com/ParsekDev/website/edit/main/:path",
           text: "Bu sayfayı GitHub'da düzenle"
         }
       }
